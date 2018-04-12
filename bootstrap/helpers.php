@@ -4,5 +4,5 @@
 //作用是允许我们针对某个页面做页面样式定制。
 //在后面的章节中会用到。
 function route_class(){
-    return str_replace(',','-',Route::currentRouteName());
+    return str_replace('.','-',Route::currentRouteName());
 }
