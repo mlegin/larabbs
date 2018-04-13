@@ -9,6 +9,7 @@
     <title>@yield('title','LaraBBS') - LaraBBS made from mlegin </title>
 
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    @yield('styles')
 </head>
 
 <body>
@@ -21,5 +22,6 @@
       @include('layouts._footer')
   </div>
   <script src="{{ asset('js/app.js') }}"></script>
+  @yield('scripts')
 </body>
 </html>
